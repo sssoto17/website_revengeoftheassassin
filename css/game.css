@@ -1,148 +1,148 @@
 #background {
-  background-image: url(../svg/setting/full_background.svg);
-  background-size: cover;
-  filter: blur(5px);
-  width: 100%;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -500;
+	background-image: url(../svg/setting/full_background.svg);
+	background-size: cover;
+	filter: blur(5px);
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -500;
 }
 
 /* SCREEN */
 
 #screen {
-  max-width: 100%;
-  max-height: 100vh;
-  margin: auto;
-  aspect-ratio: 16/9;
-  position: relative;
-  overflow: hidden;
-  container-type: inline-size;
-  border-left: white solid 1px;
-  border-right: white solid 1px;
+	max-width: 100%;
+	max-height: 100vh;
+	margin: auto;
+	aspect-ratio: 16/9;
+	position: relative;
+	overflow: hidden;
+	container-type: inline-size;
+	border-left: white solid 1px;
+	border-right: white solid 1px;
 }
 
 #game {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -50;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/* z-index: -50; */
 }
 
 #start {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(../webp/title_screen.webp);
-  background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../webp/title_screen.webp);
+	background-size: cover;
 }
 
 #how_to {
-  position: absolute;
-  top: 5%;
-  left: 30%;
-  aspect-ratio: 765 / 1007;
-  background-image: url(../png/game_instructions.png);
-  background-size: cover;
-  width: 40%;
-  z-index: 1000;
+	position: absolute;
+	top: 5%;
+	left: 30%;
+	aspect-ratio: 765 / 1007;
+	background-image: url(../png/game_instructions.png);
+	background-size: cover;
+	width: 40%;
+	z-index: 1000;
 }
 
 #game_over {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(../webp/gameover.webp);
-  background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../webp/gameover.webp);
+	background-size: cover;
 }
 
 #level_complete {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
 }
 
 .level_complete_okay {
-  background-image: url(../webp/levelcomplete_okay.webp);
+	background-image: url(../webp/levelcomplete_okay.webp);
 }
 
 .level_complete_great {
-  background-image: url(../webp/levelcomplete_great.webp);
+	background-image: url(../webp/levelcomplete_great.webp);
 }
 
 .level_complete_amazing {
-  background-image: url(../webp/levelcomplete_amazing.webp);
+	background-image: url(../webp/levelcomplete_amazing.webp);
 }
 
 #game_over_points,
 #level_complete_points {
-  position: absolute;
-  width: 36.25%;
-  font-size: 3cqw;
-  font-family: "Karla", sans-serif;
-  text-align: center;
+	position: absolute;
+	width: 36.25%;
+	font-size: 3cqw;
+	font-family: "Karla", sans-serif;
+	text-align: center;
 }
 
 #game_over_points {
-  top: 28%;
-  left: 40%;
+	top: 28%;
+	left: 40%;
 }
 
 #level_complete_points {
-  top: 35%;
-  left: 20.5%;
+	top: 35%;
+	left: 20.5%;
 }
 
 #start_button,
 #play_button,
 #replay_button1,
 #replay_button2 {
-  position: absolute;
-  right: 10%;
-  bottom: 10%;
-  text-transform: uppercase;
-  cursor: pointer;
-  animation-name: button_kf;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+	position: absolute;
+	right: 10%;
+	bottom: 10%;
+	text-transform: uppercase;
+	cursor: pointer;
+	animation-name: button_kf;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
 }
 
 #start_button,
 #play_button {
-  padding: 1% 5%;
-  color: white;
-  border: white solid 3px;
-  border-radius: 10px;
-  font-family: "Quicksand", sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.25cqw;
-  font-size: 4cqw;
+	padding: 1% 5%;
+	color: white;
+	border: white solid 3px;
+	border-radius: 10px;
+	font-family: "Quicksand", sans-serif;
+	font-weight: 700;
+	letter-spacing: 0.25cqw;
+	font-size: 4cqw;
 }
 
 #play_button {
-  padding: 0.3% 10%;
-  font-size: 3.5cqw;
-  right: 29%;
-  bottom: 5%;
+	padding: 0.3% 10%;
+	font-size: 3.5cqw;
+	right: 29%;
+	bottom: 5%;
 }
 
 #replay_button1,
 #replay_button2 {
-  font-family: "Rubik Wet Paint", sans-serif;
-  font-weight: bold;
-  font-size: 6cqw;
+	font-family: "Rubik Wet Paint", sans-serif;
+	font-weight: bold;
+	font-size: 6cqw;
 }
 
 #mute_button,
@@ -150,10 +150,10 @@
 #close_button,
 #back_button1,
 #back_button2 {
-  background-size: cover;
-  position: absolute;
-  cursor: pointer;
-  transition: 0.5s;
+	background-size: cover;
+	position: absolute;
+	cursor: pointer;
+	transition: 0.5s;
 }
 
 #mute_button:hover,
@@ -161,154 +161,154 @@
 #close_button:hover,
 #back_button1:hover,
 #back_button2:hover {
-  scale: 1.3;
+	scale: 1.3;
 }
 
 #close_button {
-  background-image: url(../svg/circle-xmark-regular.svg);
-  aspect-ratio: 512 / 512;
-  width: 5%;
-  top: 5%;
-  left: 85%;
+	background-image: url(../svg/circle-xmark-regular.svg);
+	aspect-ratio: 512 / 512;
+	width: 5%;
+	top: 5%;
+	left: 85%;
 }
 
 #mute_button {
-  aspect-ratio: 640 / 512;
-  width: 2.5%;
-  top: 8%;
-  left: 3%;
+	aspect-ratio: 640 / 512;
+	width: 2.5%;
+	top: 8%;
+	left: 3%;
 }
 
 .sound_on {
-  background-image: url(../svg/music.svg);
+	background-image: url(../svg/music.svg);
 }
 
 .sound_mute {
-  background-image: url(../svg/music_mute.svg);
+	background-image: url(../svg/music_mute.svg);
 }
 
 #guide_button {
-  background-image: url(../svg/how_to.svg);
-  aspect-ratio: 640 / 512;
-  width: 2.5%;
-  top: 8%;
-  left: 7%;
+	background-image: url(../svg/how_to.svg);
+	aspect-ratio: 640 / 512;
+	width: 2.5%;
+	top: 8%;
+	left: 7%;
 }
 
 #back_button1,
 #back_button2 {
-  background-image: url(../svg/back.svg);
-  aspect-ratio: 512 / 512;
-  width: 3%;
-  bottom: 5%;
-  left: 5%;
+	background-image: url(../svg/back.svg);
+	aspect-ratio: 512 / 512;
+	width: 3%;
+	bottom: 5%;
+	left: 5%;
 }
 
 @keyframes button_kf {
-  50% {
-    scale: 1.1;
-  }
+	50% {
+		scale: 1.1;
+	}
 }
 
 .hide {
-  display: none;
+	display: none;
 }
 
 /* GAME SCREEN */
 
 #game_background {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-image: url(../svg/setting/backdrop.svg);
-  background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-image: url(../svg/setting/backdrop.svg);
+	background-size: cover;
 }
 
 #game_elements {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 #game_foreground {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  background-image: url(../svg/setting/foreground.svg);
-  background-size: cover;
-  z-index: 20;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	background-image: url(../svg/setting/foreground.svg);
+	background-size: cover;
+	z-index: 20;
 }
 
 #game_middleground1 {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  background-image: url(../svg/setting/background.svg);
-  background-size: cover;
-  z-index: 9;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	background-image: url(../svg/setting/background.svg);
+	background-size: cover;
+	z-index: 9;
 }
 
 #game_middleground2 {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  background-image: url(../svg/setting/middleground.svg);
-  background-size: cover;
-  z-index: 11;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	background-image: url(../svg/setting/middleground.svg);
+	background-size: cover;
+	z-index: 11;
 }
 
 /* UI */
 
 #game_ui {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  pointer-events: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	pointer-events: none;
 }
 
 #score_board {
-  position: absolute;
-  background-image: url(../svg/ui_score_board.svg);
-  background-size: cover;
-  aspect-ratio: 47/64;
-  top: 50%;
-  left: 78%;
-  width: 20%;
-  z-index: 1000;
+	position: absolute;
+	background-image: url(../svg/ui_score_board.svg);
+	background-size: cover;
+	aspect-ratio: 47/64;
+	top: 50%;
+	left: 78%;
+	width: 20%;
+	z-index: 1000;
 }
 
 #score {
-  position: absolute;
-  top: 38%;
-  left: 15%;
-  font-family: "Cinzel Decorative", serif;
-  font-size: 5cqw;
-  font-weight: bold;
-  text-align: center;
-  width: 70%;
+	position: absolute;
+	top: 38%;
+	left: 15%;
+	font-family: "Cinzel Decorative", serif;
+	font-size: 5cqw;
+	font-weight: bold;
+	text-align: center;
+	width: 70%;
 }
 
 #life_board {
-  position: absolute;
-  width: 23%;
-  z-index: 1000;
-  top: 3%;
-  left: 3%;
-  display: flex;
-  justify-content: space-between;
+	position: absolute;
+	width: 23%;
+	z-index: 1000;
+	top: 3%;
+	left: 3%;
+	display: flex;
+	justify-content: space-between;
 }
 
 #life1,
@@ -316,134 +316,138 @@
 #life3,
 #life4,
 #life5 {
-  background-image: url(../svg/ui_life.svg);
-  background-size: cover;
-  width: 17%;
-  aspect-ratio: 4/4;
+	background-image: url(../svg/ui_life.svg);
+	background-size: cover;
+	width: 17%;
+	aspect-ratio: 4/4;
 }
 
 .life_hide {
-  opacity: 0%;
+	opacity: 0%;
 }
 
 #time_board {
-  position: absolute;
-  background-image: url(../svg/ui_timer.svg);
-  background-size: cover;
-  aspect-ratio: 47/64;
-  top: 50%;
-  left: 78%;
-  width: 20%;
-  z-index: 50;
+	position: absolute;
+	background-image: url(../svg/ui_timer.svg);
+	background-size: cover;
+	aspect-ratio: 47/64;
+	top: 50%;
+	left: 78%;
+	width: 20%;
+	z-index: 50;
 }
 
 #time_board div {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-size: cover;
-  aspect-ratio: 47/64;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-size: cover;
+	aspect-ratio: 47/64;
 }
 
 #symbol1 {
-  background-image: url(../svg/ui_timer_symbol1.svg);
+	background-image: url(../svg/ui_timer_symbol1.svg);
 }
 #symbol2 {
-  background-image: url(../svg/ui_timer_symbol2.svg);
+	background-image: url(../svg/ui_timer_symbol2.svg);
 }
 #symbol3 {
-  background-image: url(../svg/ui_timer_symbol3.svg);
+	background-image: url(../svg/ui_timer_symbol3.svg);
 }
 #symbol4 {
-  background-image: url(../svg/ui_timer_symbol4.svg);
+	background-image: url(../svg/ui_timer_symbol4.svg);
 }
 #symbol5 {
-  background-image: url(../svg/ui_timer_symbol5.svg);
+	background-image: url(../svg/ui_timer_symbol5.svg);
 }
 #symbol6 {
-  background-image: url(../svg/ui_timer_symbol6.svg);
+	background-image: url(../svg/ui_timer_symbol6.svg);
 }
 
 .symbol_hide {
-  animation-name: symbol_kf;
-  animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
+	animation-name: symbol_kf;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-iteration-count: 1;
+	animation-fill-mode: both;
 }
 
 @keyframes symbol_kf {
-  100% {
-    opacity: 0%;
-  }
+	100% {
+		opacity: 0%;
+	}
 }
 
 #game_sun {
-  position: absolute;
-  top: 17%;
-  left: -7%;
-  pointer-events: none;
-  background-image: url(../svg/setting/sun.svg);
-  background-size: cover;
-  width: 5%;
-  z-index: 1000;
-  aspect-ratio: 4/4;
-  filter: drop-shadow(0 0 10px white);
+	position: absolute;
+	top: 17%;
+	left: -7%;
+	pointer-events: none;
+	background-image: url(../svg/setting/sun.svg);
+	background-size: cover;
+	width: 5%;
+	z-index: 1000;
+	aspect-ratio: 4/4;
+	filter: drop-shadow(0 0 10px white);
 }
 
 .sun_kf {
-  animation-name: sun_kf;
-  animation-duration: 60s;
-  animation-timing-function: linear;
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
+	animation-name: sun_kf;
+	animation-duration: 60s;
+	animation-timing-function: linear;
+	animation-iteration-count: 1;
+	animation-fill-mode: both;
 }
 
 @keyframes sun_kf {
-  0% {
-    translate: 0;
-  }
-  25% {
-    translate: 537, 5% -50%;
-  }
-  50% {
-    translate: 1075% -60%;
-  }
-  75% {
-    translate: 1612, 5% -50%;
-  }
-  100% {
-    translate: 2150% 0;
-  }
+	0% {
+		translate: 0;
+	}
+	25% {
+		translate:
+			537,
+			5% -50%;
+	}
+	50% {
+		translate: 1075% -60%;
+	}
+	75% {
+		translate:
+			1612,
+			5% -50%;
+	}
+	100% {
+		translate: 2150% 0;
+	}
 }
 
 /* CULTIST */
 
 #cultist_container {
-  position: absolute;
-  aspect-ratio: 7/15;
+	position: absolute;
+	aspect-ratio: 7/15;
 }
 
 #cultist_sprite {
-  width: 100%;
-  height: 100%;
-  background-image: url(../svg/element_cultist.svg);
-  background-size: 100%;
+	width: 100%;
+	height: 100%;
+	background-image: url(../svg/element_cultist.svg);
+	background-size: 100%;
 }
 
 /* HEART */
 
 #heart_container {
-  aspect-ratio: 4/4;
-  position: absolute;
+	aspect-ratio: 4/4;
+	position: absolute;
 }
 
 #heart_sprite {
-  width: 100%;
-  height: 100%;
-  background-image: url(../svg/element_life.svg);
-  background-size: 100%;
+	width: 100%;
+	height: 100%;
+	background-image: url(../svg/element_life.svg);
+	background-size: 100%;
 }
 
 /* CRIMINAL */
@@ -451,17 +455,17 @@
 #criminal_container1,
 #criminal_container2,
 #criminal_container3 {
-  aspect-ratio: 7/15;
-  position: absolute;
+	aspect-ratio: 7/15;
+	position: absolute;
 }
 
 #criminal_sprite1,
 #criminal_sprite2,
 #criminal_sprite3 {
-  width: 100%;
-  height: 100%;
-  background-image: url(../svg/element_criminal.svg);
-  background-size: 100%;
+	width: 100%;
+	height: 100%;
+	background-image: url(../svg/element_criminal.svg);
+	background-size: 100%;
 }
 
 /* CIVILIAN */
@@ -471,8 +475,8 @@
 #civilian_container3,
 #civilian_container4,
 #civilian_container5 {
-  aspect-ratio: 7/15;
-  position: absolute;
+	aspect-ratio: 7/15;
+	position: absolute;
 }
 
 #civilian_sprite1,
@@ -480,247 +484,247 @@
 #civilian_sprite3,
 #civilian_sprite4,
 #civilian_sprite5 {
-  width: 100%;
-  height: 100%;
-  background-image: url(../svg/element_civilian.svg);
-  background-size: 100%;
+	width: 100%;
+	height: 100%;
+	background-image: url(../svg/element_civilian.svg);
+	background-size: 100%;
 }
 
 /* ON CLICK */
 
 .goodclick {
-  animation-name: goodclick_kf;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: both;
-  z-index: 100;
+	animation-name: goodclick_kf;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: both;
+	z-index: 100;
 }
 
 @keyframes goodclick_kf {
-  25% {
-    scale: 1.5;
-  }
-  50% {
-    scale: 1;
-  }
-  75% {
-    scale: 1.2;
-    opacity: 100%;
-  }
-  100% {
-    scale: 0;
-    opacity: 0;
-  }
+	25% {
+		scale: 1.5;
+	}
+	50% {
+		scale: 1;
+	}
+	75% {
+		scale: 1.2;
+		opacity: 100%;
+	}
+	100% {
+		scale: 0;
+		opacity: 0;
+	}
 }
 
 .heartclick {
-  animation-name: heartclick_kf;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: both;
-  z-index: 20;
+	animation-name: heartclick_kf;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: both;
+	z-index: 20;
 }
 
 @keyframes heartclick_kf {
-  25% {
-    scale: 2;
-  }
-  100% {
-    scale: 0.5;
-    opacity: 0;
-  }
+	25% {
+		scale: 2;
+	}
+	100% {
+		scale: 0.5;
+		opacity: 0;
+	}
 }
 
 .badclick {
-  animation-name: badclick_kf;
-  animation-duration: 0.7s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: both;
+	animation-name: badclick_kf;
+	animation-duration: 0.7s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: both;
 }
 
 @keyframes badclick_kf {
-  25% {
-    translate: 0 -20%;
-    transform: rotate(35deg);
-  }
-  50% {
-    translate: 0;
-    transform: rotate(-35deg);
-  }
-  75% {
-    translate: 0 -10%;
-    transform: rotate(25deg);
-    opacity: 100%;
-  }
-  100% {
-    opacity: 0;
-    transform: rotate(-25deg);
-  }
+	25% {
+		translate: 0 -20%;
+		transform: rotate(35deg);
+	}
+	50% {
+		translate: 0;
+		transform: rotate(-35deg);
+	}
+	75% {
+		translate: 0 -10%;
+		transform: rotate(25deg);
+		opacity: 100%;
+	}
+	100% {
+		opacity: 0;
+		transform: rotate(-25deg);
+	}
 }
 
 .paused {
-  animation-play-state: paused;
+	animation-play-state: paused;
 }
 
 .click_once {
-  pointer-events: none;
+	pointer-events: none;
 }
 
 /* POSITIONS */
 
 .pos1 {
-  width: 7%;
-  top: 48%;
-  left: -7%;
-  z-index: 10;
-  animation-name: pos1_kf;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+	width: 7%;
+	top: 48%;
+	left: -7%;
+	z-index: 10;
+	animation-name: pos1_kf;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
 }
 
 .pos2 {
-  width: 8%;
-  top: 50%;
-  left: -8%;
-  z-index: 12;
-  animation-name: pos2_kf;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+	width: 8%;
+	top: 50%;
+	left: -8%;
+	z-index: 12;
+	animation-name: pos2_kf;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
 }
 
 .pos3 {
-  width: 10%;
-  top: 50%;
-  left: -10%;
-  z-index: 13;
-  animation-name: pos3_kf;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+	width: 10%;
+	top: 50%;
+	left: -10%;
+	z-index: 13;
+	animation-name: pos3_kf;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
 }
 
 .pos4 {
-  width: 13%;
-  top: 49%;
-  left: -13%;
-  z-index: 14;
-  animation-name: pos4_kf;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+	width: 13%;
+	top: 49%;
+	left: -13%;
+	z-index: 14;
+	animation-name: pos4_kf;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
 }
 
 /* POSITION KEYFRAMES */
 
 @keyframes pos1_kf {
-  0% {
-    translate: 0;
-  }
-  10% {
-    translate: 160% -20%;
-  }
-  50% {
-    translate: 800% 0;
-  }
-  100% {
-    translate: 1600% -15%;
-  }
+	0% {
+		translate: 0;
+	}
+	10% {
+		translate: 160% -20%;
+	}
+	50% {
+		translate: 800% 0;
+	}
+	100% {
+		translate: 1600% -15%;
+	}
 }
 
 @keyframes pos2_kf {
-  0% {
-    translate: 0;
-  }
-  15% {
-    translate: 210% -10%;
-  }
-  60% {
-    translate: 840% 0;
-  }
-  100% {
-    translate: 1400% -15%;
-  }
+	0% {
+		translate: 0;
+	}
+	15% {
+		translate: 210% -10%;
+	}
+	60% {
+		translate: 840% 0;
+	}
+	100% {
+		translate: 1400% -15%;
+	}
 }
 
 @keyframes pos3_kf {
-  0% {
-    translate: 0;
-  }
-  50% {
-    translate: 550% 10%;
-  }
-  100% {
-    translate: 1100%;
-  }
+	0% {
+		translate: 0;
+	}
+	50% {
+		translate: 550% 10%;
+	}
+	100% {
+		translate: 1100%;
+	}
 }
 
 @keyframes pos4_kf {
-  0% {
-    translate: 0;
-  }
-  50% {
-    translate: 500% 15%;
-  }
-  100% {
-    translate: 1000%;
-  }
+	0% {
+		translate: 0;
+	}
+	50% {
+		translate: 500% 15%;
+	}
+	100% {
+		translate: 1000%;
+	}
 }
 
 /* SPEEDS */
 
 .cultist_speed {
-  animation-duration: 2.5s;
+	animation-duration: 2.5s;
 }
 
 .criminal_speed {
-  animation-duration: 5s;
+	animation-duration: 5s;
 }
 
 .civilian_speed1 {
-  animation-duration: 6s;
+	animation-duration: 6s;
 }
 .civilian_speed2 {
-  animation-duration: 8s;
+	animation-duration: 8s;
 }
 .civilian_speed3 {
-  animation-duration: 10s;
+	animation-duration: 10s;
 }
 
 /* DELAY */
 
 .delay1 {
-  animation-delay: 0.5s;
+	animation-delay: 0.5s;
 }
 
 .delay2 {
-  animation-delay: 1s;
+	animation-delay: 1s;
 }
 
 .delay3 {
-  animation-delay: 2s;
+	animation-delay: 2s;
 }
 
 .delay4 {
-  animation-delay: 3s;
+	animation-delay: 3s;
 }
 
 .delay5 {
-  animation-delay: 4s;
+	animation-delay: 4s;
 }
 
 .delay6 {
-  animation-delay: 5s;
+	animation-delay: 5s;
 }
 
 .delay7 {
-  animation-delay: 6s;
+	animation-delay: 6s;
 }
 
 .delay8 {
-  animation-delay: 8s;
+	animation-delay: 8s;
 }
 
 .delay9 {
-  animation-delay: 10s;
+	animation-delay: 10s;
 }
